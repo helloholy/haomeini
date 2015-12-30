@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B969751C33F9CE009F6213 /* ddxdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B969741C33F9CE009F6213 /* ddxdd.m */; };
 		85F001471C33EFFE00DEE9E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F001461C33EFFE00DEE9E5 /* main.m */; };
 		85F0014A1C33EFFE00DEE9E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F001491C33EFFE00DEE9E5 /* AppDelegate.m */; };
 		85F0014D1C33EFFE00DEE9E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0014C1C33EFFE00DEE9E5 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85B969731C33F9CE009F6213 /* ddxdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddxdd.h; sourceTree = "<group>"; };
+		85B969741C33F9CE009F6213 /* ddxdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ddxdd.m; sourceTree = "<group>"; };
 		85F001421C33EFFE00DEE9E5 /* yi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F001461C33EFFE00DEE9E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85F001481C33EFFE00DEE9E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				85F001491C33EFFE00DEE9E5 /* AppDelegate.m */,
 				85F0014B1C33EFFE00DEE9E5 /* ViewController.h */,
 				85F0014C1C33EFFE00DEE9E5 /* ViewController.m */,
+				85B969731C33F9CE009F6213 /* ddxdd.h */,
+				85B969741C33F9CE009F6213 /* ddxdd.m */,
 				85F0014E1C33EFFE00DEE9E5 /* Main.storyboard */,
 				85F001511C33EFFE00DEE9E5 /* Assets.xcassets */,
 				85F001531C33EFFE00DEE9E5 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				85F0014D1C33EFFE00DEE9E5 /* ViewController.m in Sources */,
 				85F0014A1C33EFFE00DEE9E5 /* AppDelegate.m in Sources */,
+				85B969751C33F9CE009F6213 /* ddxdd.m in Sources */,
 				85F001471C33EFFE00DEE9E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				85F0015B1C33EFFE00DEE9E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
